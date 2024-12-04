@@ -185,6 +185,80 @@ h6 {
   width: 80%; /* Largura do modal */
 }
 
+/* Seção de Projetos */
+.projects {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+.projects .section-title h2 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.projects .section-title p {
+  text-align: center;
+  color: #555;
+  font-size: 1rem;
+}
+
+.project-box {
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-box h4 {
+  font-size: 1.5rem;
+  color: #222;
+  margin: 15px 0;
+}
+
+.project-box p {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 0;
+}
+
+.project-icon {
+  font-size: 3rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.project-icon i {
+  display: inline-block;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .projects .section-title h2 {
+    font-size: 2rem;
+  }
+
+  .projects .section-title p {
+    font-size: 0.9rem;
+  }
+
+  .project-box h4 {
+    font-size: 1.2rem;
+  }
+
+  .project-box p {
+    font-size: 0.85rem;
+  }
+}
+
 
 
 .header .profile-img img {
