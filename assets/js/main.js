@@ -242,3 +242,21 @@ function alternar_modal(id) {
     modal.style.display = "block";
   }
 }
+function alternarModal(modalId) {
+  // Ocultar todos os modais antes de abrir o solicitado
+  const modais = document.querySelectorAll(".modal, .custom-modal");
+  modais.forEach((modal) => (modal.style.display = "none"));
+
+  // Exibir o modal específico
+  const modal = document.getElementById(modalId);
+  if (modal) {
+    modal.style.display = "block";
+  }
+}
+
+function fecharModal() {
+  // Ocultar todos os modais
+  const modais = document.querySelectorAll(".modal, .custom-modal");
+  modais.forEach((modal) => (modal.style.display = "none"));
+}
+
